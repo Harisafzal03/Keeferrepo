@@ -1,38 +1,253 @@
-.App {
-  text-align: center;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+body {
+  font-family: 'Libre Franklin', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formbg {
+  background-image: url("./asset/form_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontsp{
+  color: #4b5563; 
+  padding-right: 0.75rem; 
+  font-size: 22px;
+  font-weight: 500; 
+  letter-spacing: 1px; 
+  line-height: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headingfont {
+  color: #616161; 
+  padding-right: 0.75rem; 
+  font-size: 28px;
+  font-weight: 700; 
+  letter-spacing: 2px; 
+  line-height: normal;
+}
+.Aboutfont {
+  color: #BDBDBD; 
+  padding-right: 0.75rem; 
+  font-size: 26px;
+  font-weight: 700; 
+  letter-spacing: 2px;
+}
+.mainheading {
+  color: #616161; 
+  padding-right: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 2px;
+}
+.button {
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 24px;
+}
+.headingfontboxes {
+  color: white; 
+  padding-right: 0.75rem; 
+  font-size: 24px;
+  font-weight: 700; 
+  letter-spacing: 2px; 
+}
+.firstheading {
+  color: #C62828;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: normal;
+}
+.secondheading {
+  color: #212121;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
+}
+.thirdheading {
+  color: #616161;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.menu {
+  padding: 20px;
+  font-size: 24px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text {
+  font-size: 26px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.bannertext {
+  font-size: 34px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: normal;
+}
+.bannerheading {
+  color: white;
+  font-size: 37px;
+}
+.input {
+  height: 2rem;
+  width: 17rem;
+}
+.texts {
+  font-size: 24px;
+}
+.labels {
+  font-size: 18px;
+}
+.textfirst {
+  font-size: 20px;
+}
+.widths {
+  width: 1650px;
+}
+@media screen and (max-width: 1770px) {
+  .text {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .bannertext {
+    font-size: 28px;
+  }
+  .bannerheading {
+    font-size: 32px;
+  }
+  .input {
+    width: 15rem;
+  }
+  .texts {
+    font-size: 20px;
+  }
+  .textfirst {
+    font-size: 15px;
+  }
+  .widths {
+    width: 1350px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .text {
+    font-size: 18px;
+  }
+  .texts {
+    font-size: 18px;
+  }
+  .textfirst {
+    font-size: 15px;
+  }
+  .input {
+    width: 13rem;
+  }
+  .bannertext {
+    font-size: 22px;
+  }
+  .bannerheading {
+    font-size: 28px;
+  }
+  .labels {
+    font-size: 16px;
+  }
+  .widths {
+    width: 1150px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .input {
+    width: 10rem;
+  }
+  .bannerheading {
+    font-size: 25px;
+  }
+  .labels {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .widths {
+    width: 900px;
+  }
+  .formbg {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .firstheading {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .texts {
+    font-size: 35px;
+  }
+  .textfirst {
+    font-size: 19px;
+  }
+  .menu {
+    padding: 15px;
+  }
+  .secondheading {
+    font-size: 49px;
+  }
+  .thirdheading {
+    font-size: 19px;
+  }
+  .input {
+    width: 30rem;
+  }
+  .widths {
+    width: 700px;
+  }
+  .button {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .texts {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .button {
+    font-size: 17px;
+  }
+  .texts {
+    font-size: 25px;
+  }
+  .input {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .firstheading {
+    font-size: 20px;
+  }
+  .secondheading {
+    font-size: 41px;
+  }
+  .thirdheading {
+    font-size: 16px;
+  }
+  .texts {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstheading {
+    font-size: 16px;
+  }
+  .secondheading {
+    font-size: 24px;
+  }
+  .thirdheading {
+    font-size: 12px;
+  }
+  .texts {
+    font-size: 16px;
+  }
+  .headingfont {
+    font-size: 20px;
   }
 }
