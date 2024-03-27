@@ -16,7 +16,7 @@ function Header() {
       </div>
       <div className='lg:px-14 my-auto max-lg:mx-auto max-md:mx-0'>
         <h1 className='firstheading tracking-widest'>CALL OUR OFFICES NOW!</h1>
-        <hr className='h-1 bg-gray-100 border-0 dark:bg-gray-600' />
+        <hr className='h-1 bg-gray-100 border-0 dark:bg-gray-800' />
         <h2 className='secondheading tracking-widest'>540.433.6906</h2>
         <h2 className='thirdheading tracking-widest'>Get Your Questions Answered Fast</h2>
       </div>

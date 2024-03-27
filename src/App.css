@@ -15,8 +15,6 @@ body {
   font-size: 18px;
   font-weight: 600; 
   letter-spacing: 1px; 
-  padding-top: 20px;
-  padding-bottom: 20px;
   line-height: 30px;
 }
 .headingfont {
@@ -45,6 +43,7 @@ body {
   padding-right: 8px;
   padding-left: 8px;
   font-size: 24px;
+  letter-spacing: normal;
 }
 .headingfontboxes {
   color: white; 
@@ -173,6 +172,9 @@ body {
   .formbg {
     padding-bottom: 10px;
   }
+  .button {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 1280px) {
   .firstheading {
@@ -203,12 +205,15 @@ body {
     width: 700px;
   }
   .button {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1085px) {
   .texts {
     font-size: 32px;
+  }
+  .button {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 980px) {

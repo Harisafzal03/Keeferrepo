@@ -7,9 +7,13 @@ function Sectionpart3() {
   return (
     <div className='p-10 w-[30%] max-lg:w-full max-sm:p-0'>
         <div>
-          <div className='flex max-sm:flex-col max-sm:gap-5 max-sm:items-center justify-between'>
-          <img src={TopAttorney} alt="TopAttorney" className='aspect-[102/113] w-[45%] h-[120px]'/>
-          <img src={NCFDD} alt="NCFDD" className='aspect-[102/113] w-[35%] h-[120px]'/>
+          <div className='flex max-sm:flex-col max-sm:gap-5 max-sm:items-center max-lg:justify-center lg:justify-around'>
+          <div className='px-4 max-md:px-10 my-10'>
+          <img src={TopAttorney} alt="TopAttorney" className='aspect-[3/3] lg:h-[120px] max-lg:h-full'/>
+          </div>
+          <div className='px-4 max-md:px-10 my-10 '>
+          <img src={NCFDD} alt="NCFDD" className='aspect-[3/3] lg:h-[120px]'/>
+          </div>
           </div>
           <p className='headingfont max-2xl:py-4'>CERTIFICATES & <span className='text-red-900'>CREDENTIALS</span></p>
           <div className='flex'>

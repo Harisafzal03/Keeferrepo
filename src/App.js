@@ -29,7 +29,7 @@ function App() {
       <Sectionpart2/>
       <Sectionpart3/>     
       </div>
-      <div className='flex max-lg:flex-col p-12'>
+      <div className='flex lg:justify-between max-lg:flex-col p-12'>
         <div className='w-[22%] max-lg:w-full'>
           <div>
             <p className='headingfont'>PRACTICE <span className='text-red-900'>AREAS</span></p>
@@ -41,7 +41,7 @@ function App() {
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>DUI & DWI</p>
           <div className='flex justify-end px-2'>
-        <p className='button'>CLICK HERE</p>
+        <p className='button font-medium'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -53,9 +53,9 @@ function App() {
                 <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
-                <p className='headingfontboxes'>DUI & DWI</p>
+                <p className='headingfontboxes'>RECKLESS DRIVING</p>
           <div className='flex justify-end px-2'>
-        <p className='button'>CLICK HERE</p>
+        <p className='button font-medium'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -67,9 +67,9 @@ function App() {
                 <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
-                <p className='headingfontboxes'>DUI & DWI</p>
+                <p className='headingfontboxes'>SPEEDING TICKETS</p>
           <div className='flex justify-end px-2'>
-        <p className='button'>CLICK HERE</p>
+        <p className='button font-medium'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -81,9 +81,9 @@ function App() {
                 <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
-                <p className='headingfontboxes'>DUI & DWI</p>
+                <p className='headingfontboxes'>TRAFFIC VIOLATIONS</p>
           <div className='flex justify-end px-2'>
-        <p className='button'>CLICK HERE</p>
+        <p className='button font-medium'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -159,11 +159,11 @@ function App() {
           </div>
           </div>
 
-          <div className='flex lg:flex-col max-lg:justify-around'>
-          <div className='px-16 max-md:px-10 my-10'>
+          <div className='flex lg:flex-col max-lg:justify-center max-lg:gap-0'>
+          <div className='px-16 max-md:px-10 my-5'>
           <img src={TopAttorney} alt="TopAttorney" className='aspect-[3/3] lg:w-full max-lg:h-full'/>
           </div>
-          <div className='px-16 max-md:px-10 my-10 '>
+          <div className='px-16 max-md:px-10 my-5'>
           <img src={NCFDD} alt="NCFDD" className='aspect-[3/3] lg:w-full'/>
           </div>
           </div>
@@ -171,23 +171,21 @@ function App() {
             <div className='flex justify-center'>
           <p className='headingfont'>FOLLOW <span className='text-red-900'>US</span></p>
           </div>
-              <div className='border-t-2 border-gray-500'/>
-              <div className='flex lg:justify-between max-lg:justify-around pt-5'>
+              <div className='border-t-2 mx-auto w-[80%] border-gray-500'/>
+              <div className='flex w-[80%] mx-auto lg:justify-between max-lg:justify-around pt-5'>
                 <div>
-              <img src={Facebook} alt="Facebook" className='w-[60px] max-2xl:w-[50px] max-xl:w-[40px] max-lg:w-[60px]'/>
+              <img src={Facebook} alt="Facebook" className='w-[50px] max-2xl:w-[40px] max-xl:w-[35px] max-lg:w-[60px]'/>
               </div>
               <div>
-              <img src={Google} alt="Google" className='w-[60px] max-2xl:w-[50px] max-xl:w-[40px] max-lg:w-[60px]'/>
+              <img src={Google} alt="Google" className='w-[50px] max-2xl:w-[40px] max-xl:w-[35px] max-lg:w-[60px]'/>
               </div>
               <div>
-              <img src={Twitter} alt="Twitter" className='w-[60px] max-2xl:w-[50px] max-xl:w-[40px] max-lg:w-[60px]'/>
+              <img src={Twitter} alt="Twitter" className='w-[50px] max-2xl:w-[40px] max-xl:w-[35px] max-lg:w-[60px]'/>
               </div>
               <div>
-              <img src={Linkedin} alt="Linkedin" className='w-[60px] max-2xl:w-[50px] max-xl:w-[40px] max-lg:w-[60px]'/>
+              <img src={Linkedin} alt="Linkedin" className='w-[50px] max-2xl:w-[40px] max-xl:w-[35px] max-lg:w-[60px]'/>
               </div>
               </div>
-
-
           </div>
         </div>
       </div>

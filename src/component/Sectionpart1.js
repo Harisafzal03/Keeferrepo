@@ -7,13 +7,13 @@ function Sectionpart1() {
     <div className='p-10 max-sm:p-0 w-[30%] max-lg:w-full'>
           <p className='headingfont'>CHARGED WITH <span className='text-red-900'>DUI?</span></p>
           <p className='text-red-900 pr-3 text-[20px] font-semibold flex justify-start'>FREE CASE EVALUATION</p>
-          <div className='flex max-xl:flex-col py-5'>
-            <div className='flex flex-col gap-3'>
+          <div className='flex max-xl:flex-col-reverse py-5'>
+            <div className='flex flex-col gap-3 xl:w-[80%]'>
               <p className='fontsp'>Being charged with a DUI can be scary. Get the help you deserve.</p>
               <p className='fontsp'>Clickhere to let us know how we can help you with your case.</p>
             </div>
             <div>
-            <img src={Cardboard} alt="Cardboard" width={200} />
+            <img src={Cardboard} alt="Cardboard" width={150} className='max-lg:w-[150px]' />
             </div>
           </div>
           <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto place-items-end'>
