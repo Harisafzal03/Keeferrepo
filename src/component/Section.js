@@ -7,9 +7,7 @@ import Bulletwhite from "../asset/bullet_white.gif";
 function Section() {
   return (
     <div className='flex max-xl:flex-col max-xl:gap-5 p-12 h-full'>
-      <div>
-        <img src={Banner} alt="banner" width={1650} className='shadow-lg shadow-gray-500 widths max-xl:w-full'/>
-      </div>
+      <img src={Banner} alt="banner" width={1650} className='shadow-lg shadow-gray-500 widths max-xl:object-fill max-xl:w-full'/>
       <div className='formbg xl:ml-7 flex flex-col gap-10 xl:gap-3 2xl:gap-5 shadow-lg shadow-gray-500 max-xl:w-full'>
         <div className='flex pr-5 max-md:flex-col'>
           <div>
@@ -23,7 +21,7 @@ function Section() {
         <div className='flex max-md:flex-col px-10'>
           <div className='flex flex-col gap-3'>
             <div className='flex justify-end max-md:justify-center'>
-              <label className='flex justify-center font-bold'>
+              <label className='flex justify-center text-[18px] font-bold'>
                 NAME:
               </label>
               <input type="text" id="name" name="name" className='ml-4 input border border-gray-400'/>
