@@ -22,26 +22,26 @@ function Section() {
         </div>
         <div className='flex max-md:flex-col px-10'>
           <div className='flex flex-col gap-3'>
-            <div className='flex justify-between'>
+            <div className='flex justify-end max-md:justify-center'>
               <label className='flex justify-center font-bold'>
                 NAME:
               </label>
               <input type="text" id="name" name="name" className='ml-4 input border border-gray-400'/>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex justify-end max-md:justify-center'>
               <label className='flex justify-center text-[18px] font-bold'>
                 EMAIL:
               </label>
-              <input type="text" id="email" name="email" className='input border border-gray-400'/>
+              <input type="text" id="email" name="email" className='ml-4 input border border-gray-400'/>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex justify-end max-md:justify-center'>
               <label className='flex justify-center text-[18px] font-bold'>
                 PHONE:
               </label>
               <input type="text" id="phone" name="phone" className='ml-4 input border border-gray-400'/>
             </div>
           </div>
-          <div className='flex items-center'>
+          <div className='flex items-center max-md:my-5'>
             <img src={Confidential} alt="Confidential" width={300} className='rotate-12 mx-8'/>
           </div>
         </div>

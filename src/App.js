@@ -41,7 +41,7 @@ function App() {
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>DUI & DWI</p>
           <div className='flex justify-end px-2'>
-        <p className='button font-medium'>LEARN MORE</p>
+        <p className='button font-medium cursor-pointer'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -55,7 +55,7 @@ function App() {
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>RECKLESS DRIVING</p>
           <div className='flex justify-end px-2'>
-        <p className='button font-medium'>LEARN MORE</p>
+        <p className='button font-medium cursor-pointer'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -69,7 +69,7 @@ function App() {
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>SPEEDING TICKETS</p>
           <div className='flex justify-end px-2'>
-        <p className='button font-medium'>LEARN MORE</p>
+        <p className='button font-medium cursor-pointer'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -83,7 +83,7 @@ function App() {
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>TRAFFIC VIOLATIONS</p>
           <div className='flex justify-end px-2'>
-        <p className='button font-medium'>LEARN MORE</p>
+        <p className='button font-medium cursor-pointer'>LEARN MORE</p>
         <div className='flex items-center'>
         <img src={BulletRed} alt="BulletRed" width={12} />
         </div> 
@@ -105,15 +105,15 @@ function App() {
           <h1 className='mainheading text-3xl'>&lt;H1&gt;PAGE TITLE HERE</h1>
           <p className='fontsp max-lg:py-5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
         </div>
-        <div className='w-[20%] max-lg:w-full'>
-          <div className='mb-10'>
+        <div className='w-[20%] max-lg:w-full max-lg:text-center'>
+          <div className='mb-10 max-md:my-10'>
             <div className='px-2'>
           <p className='headingfont'>CLIENT <span className='text-red-900'>TESTEMONIALS</span></p>
           <p className='fontsp py-4'>Read what others say about Keefer Law Firm.</p>
           </div>
           <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto'>
               <div className='border-t-2 border-gray-500'/>
-              <button className='ml-[30%] flex place-items-end'>
+              <button className='ml-[30%] flex place-items-end max-md:mb-10 max-md:mx-auto'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>
         <p className='button'>CLICK HERE</p>
         <div className='flex items-center'>
@@ -130,7 +130,7 @@ function App() {
           </div>
               <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto'>
               <div className='border-t-2 border-gray-500'/>
-              <button className='ml-[30%] flex place-items-end'>
+              <button className='ml-[30%] flex place-items-end max-md:mb-10 max-md:mx-auto'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>
         <p className='button'>CLICK HERE</p>
         <div className='flex items-center'>
@@ -148,7 +148,7 @@ function App() {
           </div>
           <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto'>
               <div className='border-t-2 border-gray-500'/>
-              <button className='ml-[30%] flex place-items-end'>
+              <button className='ml-[30%] flex place-items-end max-md:mx-auto'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>
         <p className='button'>CLICK HERE</p>
         <div className='flex items-center'>
@@ -159,11 +159,11 @@ function App() {
           </div>
           </div>
 
-          <div className='flex lg:flex-col max-lg:justify-center max-lg:gap-0'>
-          <div className='px-16 max-md:px-10 my-5'>
-          <img src={TopAttorney} alt="TopAttorney" className='aspect-[3/3] lg:w-full max-lg:h-full'/>
+          <div className='flex lg:flex-col max-sm:flex-col max-lg:justify-center max-lg:gap-0'>
+          <div className='px-16 max-lg:px-10 my-5 max-sm:flex max-sm:justify-center'>
+          <img src={TopAttorney} alt="TopAttorney" className='max-lg:aspect-[3/3] lg:aspect-[102/90] lg:w-full max-lg:h-full'/>
           </div>
-          <div className='px-16 max-md:px-10 my-5'>
+          <div className='px-16 max-lg:px-10 my-5 max-sm:flex max-sm:justify-center'>
           <img src={NCFDD} alt="NCFDD" className='aspect-[3/3] lg:w-full'/>
           </div>
           </div>

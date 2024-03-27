@@ -23,24 +23,24 @@ function Header() {
     </div>
     <div className='bg-gradient-to-b from-red-700 to-red-900'>
       <div className='flex justify-end max-lg:hidden lg:mx-0 xl:mx-6 '>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">HOME</p>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">BIOGRAPHY</p>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">BLOG</p>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">AREA WE SERVE</p>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">LIBRARY</p>
-        <p className="menu hover:bg-[#888084] tracking-[0.11em]">CONTACT</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">HOME</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">BIOGRAPHY</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">BLOG</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">AREA WE SERVE</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">LIBRARY</p>
+        <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">CONTACT</p>
       </div>
       <div className='max-lg:block hidden p-5' onClick={handlebox}>
         <img src={Menu} alt="Menu" height={30} width={30} className='object-fill' />
       </div>
       {Open &&
         <div className='flex flex-col justify-center'>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">HOME</p>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">BIOGRAPHY</p>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">BLOG</p>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">AREA WE SERVE</p>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">LIBRARY</p>
-          <p className="menu hover:bg-[#888084] tracking-[0.11em]">CONTACT</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">HOME</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">BIOGRAPHY</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">BLOG</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">AREA WE SERVE</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">LIBRARY</p>
+          <p className="menu hover:bg-[#888084] tracking-[0.11em] cursor-pointer">CONTACT</p>
         </div>
       }
     </div>
