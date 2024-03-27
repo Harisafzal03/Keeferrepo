@@ -16,7 +16,7 @@ function Sectionpart1() {
             <img src={Cardboard} alt="Cardboard" width={200} />
             </div>
           </div>
-          <div className='flex flex-col place-items-end'>
+          <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto place-items-end'>
           <div className='2xl:w-[70%] max-2xl:w-[80%] max-xl:w-full border-t-2 border-gray-400'/>
             <button className='mr-[6%]'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>

@@ -26,19 +26,19 @@ function Section() {
               <label className='flex justify-center font-bold'>
                 NAME:
               </label>
-              <input type="text" id="name" name="name" className='ml-4 input'/>
+              <input type="text" id="name" name="name" className='ml-4 input border border-gray-400'/>
             </div>
             <div className='flex justify-between'>
               <label className='flex justify-center text-[18px] font-bold'>
                 EMAIL:
               </label>
-              <input type="text" id="email" name="email" className='input'/>
+              <input type="text" id="email" name="email" className='input border border-gray-400'/>
             </div>
             <div className='flex justify-between'>
               <label className='flex justify-center text-[18px] font-bold'>
                 PHONE:
               </label>
-              <input type="text" id="phone" name="phone" className='ml-4 input'/>
+              <input type="text" id="phone" name="phone" className='ml-4 input border border-gray-400'/>
             </div>
           </div>
           <div className='flex items-center'>
@@ -46,7 +46,7 @@ function Section() {
           </div>
         </div>
         <div className='px-12 h-[100px] xl:h-[20%]'>
-          <input type="text" id="table" name="table" className='w-full h-full'/>
+          <textarea type="text" placeholder='Tell us about yourcase here...' id="table" name="table" rows="3" multiple className='w-full h-full border border-gray-400 px-2 py-1 text-[22px] text-gray-700 placeholder-gray-700 font-bold'/>
         </div>
         <div className='flex max-md:flex-col pl-7 pr-12 justify-between'>
           <div className='flex items-center'>

@@ -10,7 +10,7 @@ function Sectionpart2() {
             <div>
             <p className='headingfont'>LAW <span className='text-red-900'>BLOG</span></p>
               <p className='fontsp py-3'>Learn more about Virginia Traffic Laws.</p>
-              <div className='flex flex-col place-items-end'>
+              <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto place-items-end'>
               <div className='2xl:w-[70%] max-2xl:w-[80%] max-xl:w-full border-t-2 border-gray-400'/>
             <button className='mr-[5%]'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>
@@ -35,7 +35,7 @@ function Sectionpart2() {
               <p className='fontsp '>See how we help our clients.</p>
               <p className='fontsp '>Read our latest ase results.</p>
               </div>
-              <div className='flex flex-col place-items-end'>
+              <div className='flex flex-col max-lg:w-[50%] max-sm:w-full max-lg:mx-auto place-items-end'>
               <div className='2xl:w-[70%] max-2xl:w-[80%] max-xl:w-full border-t-2 border-gray-400'/>
             <button className='mr-[5%]'>
           <div className='flex bg-gradient-to-b from-[#bb080b] to-[#990202] px-2 shadow-lg shadow-gray-400'>
