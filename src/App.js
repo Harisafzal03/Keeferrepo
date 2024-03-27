@@ -20,8 +20,6 @@ function App() {
     <div className="App">
       <head>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap"/>
-
-
       </head>
       <body>
       <Header/>
@@ -160,7 +158,7 @@ function App() {
         </button>
           </div>
           </div>
-          
+
           <div className='flex lg:flex-col max-lg:justify-around'>
           <div className='px-16 max-md:px-10 my-10'>
           <img src={TopAttorney} alt="TopAttorney" className='aspect-[3/3] lg:w-full max-lg:h-full'/>
