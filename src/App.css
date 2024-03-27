@@ -185,7 +185,7 @@ body {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .firstheading {
     font-size: 28px;
   }
