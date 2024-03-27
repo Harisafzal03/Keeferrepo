@@ -36,7 +36,7 @@ function App() {
             <div className='pl-1'>
             <div className='flex my-5 shadow-lg shadow-gray-500'>
               <div>
-                <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
+                <img src={Menu} alt="MenuLine" width={12} className='h-[90px] max-xl:h-[100px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>DUI & DWI</p>
@@ -50,7 +50,7 @@ function App() {
               </div>
               <div className='flex my-5 shadow-lg shadow-gray-500'>
               <div>
-                <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
+                <img src={Menu} alt="MenuLine" width={12} className='h-[90px] max-xl:h-[100px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>RECKLESS DRIVING</p>
@@ -64,7 +64,7 @@ function App() {
               </div>
               <div className='flex my-5 shadow-lg shadow-gray-500'>
               <div>
-                <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
+                <img src={Menu} alt="MenuLine" width={12} className='h-[90px] max-xl:h-[100px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>SPEEDING TICKETS</p>
@@ -78,7 +78,7 @@ function App() {
               </div>
               <div className='flex my-5 shadow-lg shadow-gray-500'>
               <div>
-                <img src={Menu} alt="MenuLine" width={12} className='h-[90px]'/>
+                <img src={Menu} alt="MenuLine" width={12} className='h-[90px] max-xl:h-[100px]'/>
               </div>
               <div className='bg-[#888084] w-full p-2 flex flex-col justify-between'>
                 <p className='headingfontboxes'>TRAFFIC VIOLATIONS</p>

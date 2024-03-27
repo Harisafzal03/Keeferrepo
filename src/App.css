@@ -127,6 +127,9 @@ body {
   .widths {
     width: 1350px;
   }
+  .headingfontboxes {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 1550px) {
   .text {
@@ -153,6 +156,9 @@ body {
   .widths {
     width: 1150px;
   }
+  .headingfontboxes {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 1550px) {
   .input {
@@ -174,6 +180,9 @@ body {
   }
   .button {
     font-size: 20px;
+  }
+  .headingfontboxes {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -214,6 +223,11 @@ body {
   }
   .button {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .headingfontboxes {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 980px) {
